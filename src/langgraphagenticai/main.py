@@ -17,3 +17,4 @@ def load_langgraph_agenticai_app():
         print("Error:Failed to load user input")
         return
     
+    user_message = st.chat_input("Enter your message:")
